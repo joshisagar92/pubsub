@@ -1,5 +1,5 @@
 \l kfk.q
-kfk_cfg:`metadata.broker.list`statistics.interval.ms!`18.117.107.163:9092`10000
+kfk_cfg:`metadata.broker.list`statistics.interval.ms!`localhost:9092`10000
 producer:.kfk.Producer[kfk_cfg]
 test_topic:.kfk.Topic[producer;`test;()!()]
 // define upd function
